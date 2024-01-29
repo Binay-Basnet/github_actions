@@ -39,7 +39,7 @@ jobs:
       with:
         image: binaybasnet/test_repo
         tags: v1, latest
-        registry: docker.io
+        registry: registry.hub.docker.com
         dockerfile: Dockerfile
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
